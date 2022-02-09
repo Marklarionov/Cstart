@@ -10,23 +10,29 @@ namespace Cstart
     {
         static void Main(string[] args)
         {
-            string a_text = Console.ReadLine();
-            double a;
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"{a}");
 
 
-            string n1 = Console.ReadLine();
-            string n2 = Console.ReadLine();
-            if ((n1 == "Mihh" && n2 == "Marco") || (n1 == "Marco" && n2 == "Mihh") || (n1 == "Edgar" && n2 == "Marco") || (n1 == "Marco" && n2 == "Edgar")|| (n1 == "Aleksandr" && n2 == "Sasha") || (n1 == "Sasha" && n2 == "Aleksandr") || (n1 == "Sasha" && n2 == "Danil")|| (n1 == "Danil" && n2 == "Sasha") || (n1 == "Alina" && n2 == "Elena") || (n1 == "Elena" && n2 == "Alina")|| (n1 == "Ervin" && n2 == "Vlad") || (n1 == "Vlad" && n2 == "Ervin"))
-            {
-                Console.WriteLine("They are deskmates");
-            }
-            else
-            {
-                Console.WriteLine("They are not deskmates");
-            }
-            
+            //int a = Console.ReadLine();
+            //int b = Console.ReadLine();
+
+
+            //string a_text = Console.ReadLine();
+            //double a;
+            //a = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine($"{a}");
+
+
+            //string n1 = Console.ReadLine();
+            //string n2 = Console.ReadLine();
+            //if ((n1 == "Mihh" && n2 == "Marco") || (n1 == "Marco" && n2 == "Mihh") || (n1 == "Edgar" && n2 == "Marco") || (n1 == "Marco" && n2 == "Edgar") || (n1 == "Aleksandr" && n2 == "Sasha") || (n1 == "Sasha" && n2 == "Aleksandr") || (n1 == "Sasha" && n2 == "Danil") || (n1 == "Danil" && n2 == "Sasha") || (n1 == "Alina" && n2 == "Elena") || (n1 == "Elena" && n2 == "Alina") || (n1 == "Ervin" && n2 == "Vlad") || (n1 == "Vlad" && n2 == "Ervin"))
+            //{
+            //    Console.WriteLine("They are deskmates");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("They are not deskmates");
+            //}
+
 
             //double price = 15;
             //string t_type = "adult ticket";
