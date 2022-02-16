@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Cstart.Massiv2</StartupObject>
+    <StartupObject>Cstart.Ulesan</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,10 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Funkts.cs" />
+    <Compile Include="Inimesed.cs" />
+    <Compile Include="Loendid.cs" />
     <Compile Include="Masiivid.cs" />
     <Compile Include="Massiv2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ulesan.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

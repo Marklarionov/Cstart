@@ -10,7 +10,7 @@ namespace Cstart
         static void Main(string[] args)
         {
             /*
-            /*int q = 10;
+            int q = 10;
             int korrutis = Funkts.Korrutamine(q, 5);
             Console.WriteLine(korrutis);
 
@@ -24,7 +24,7 @@ namespace Cstart
                     Console.Write($"{row * col,4}");
                 }
                 Console.WriteLine();
-            }*/
+            }
 
 
             //string slon;
@@ -36,11 +36,11 @@ namespace Cstart
 
             Array massiiv4;
             massiiv4 = Funkts.Arvud_Massiviisse(4, true);
-            /*int[] massiiv4 = new int[4];
+            int[] massiiv4 = new int[4];
             for (int k = 0; k < massiiv4.Length; k++)
             {
                 massiiv4[k] = int.Parse(Console.ReadLine());
-            }*/
+            }
             Array.Sort(massiiv4); //1,2....
             int D = 0;
             int t = 0;
@@ -162,7 +162,7 @@ namespace Cstart
             Console.WriteLine(nimed[a - 1]);
 
             
-            Console.ReadLine();
+            Console.ReadLine();*/
         }
     }
 }

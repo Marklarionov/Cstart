@@ -8,7 +8,7 @@ namespace Cstart
 {
     public class Funkts
     {
-        public static int Korrutamine(int arv1,int arv2)
+        /*public static int Korrutamine(int arv1,int arv2)
         {
             int kor = arv1 * arv2;
             return kor;
@@ -71,6 +71,6 @@ namespace Cstart
             }
             kesk = Math.Round(kesk / n, 4);
             return kesk;
-        }
+        }*/
     }
 }

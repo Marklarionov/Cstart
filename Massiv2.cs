@@ -9,7 +9,7 @@ namespace Cstart
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Funkts.Keskmine(4));
+            /*Console.WriteLine(Funkts.Keskmine(4));
             int arv1;
             int arv2;
             arv1 = Console.ReadLine();
@@ -17,7 +17,7 @@ namespace Cstart
             Console.WriteLine(arv1);
             Console.WriteLine(arv2);
 
-            Console.ReadKey();
+            */Console.ReadKey();
         }
     }
 }
