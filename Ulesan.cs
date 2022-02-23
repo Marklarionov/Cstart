@@ -10,36 +10,42 @@ namespace Cstart
     {
         static void Main(string[] args)
         {
-            int size = 20;
-            Random rnd = new Random();
-            int[] num = new int[size];
-            for (int i = 0; i < size; i++)
-            {
-                num[i] = rnd.Next(-5, 5);
-            }
-            Console.WriteLine(num);
+
 
 
             //1
-            /*LinkedList<int> alguses = new LinkedList<int>();
+            List<int> alguses = new List<int>();
+            List<int> lopus = new List<int>();
             for (int i = 0; i < 5; i++)
             {
-                alguses.AddLast(int.Parse(Console.ReadLine()));
+                alguses.Add(int.Parse(Console.ReadLine()));
             }
-            LinkedList<int>.Enumerator ahel1 = alguses.GetEnumerator();
-            while(ahel1.MoveNext())
+            int a1 = alguses[0];
+            int an = alguses[alguses.Count - 1];
+            alguses.Insert(0, an);
+            alguses.Add(a1);
+            
+            //2
+            Random rnd = new Random();
+            LinkedList<int> nums = new LinkedList<int>();
+            for (int i = 0; i < 20; i++)
             {
-                Console.WriteLine(ahel1.Current);
-            }
-            int j = 0;
-            foreach (int item in alguses)
-            {
-                if (j==0)
-                {      
-                    
+                int arv = rnd.Next(1, 50);
+                int newnums = arv % 2;
+                if (newnums == 0)
+                {
+                    nums.AddFirst(arv);
                 }
-                j++;
-            }*/
+                else
+                {
+                    nums.AddLast(arv);
+                }
+            }
+            foreach (int arv in nums)
+            {
+                Console.Write(arv + " ");
+            }
+
             Console.ReadLine();
         }
     }
